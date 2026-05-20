@@ -14,3 +14,9 @@ if NUMERO_2 != 0:
 else:   
     print('la division entre cero no es posible')
     
+try:
+    print("el resultado de la division es: ", NUMERO_1 / NUMERO_2)
+
+except ZeroDivisionError:
+    print('no se puede dividir para 0')
+    
